@@ -1,0 +1,63 @@
+gql urls - 
+
+https://test-gcp-graph.marketcube.io/graphql
+https://dev-gql.marketcube.io/graphql
+
+example to add cms - 
+
+collectionName: _cmsProvider
+code: "listVendor"
+lang: "en"
+
+ADD the CMS
+
+button -> providerList -> providerList
+"chatInbox": "Chat Inbox"
+
+
+
+
+collectionName: _cmsProvider
+code: "common"
+lang: "en"
+
+ADD the CMS
+
+label -> tabs -> provider
+"chatInbox": "Chat Inbox"
+
+
+
+mc-logos: 
+
+https://res.cloudinary.com/marketcube/image/upload/v1630081842/marketcube/logo/mc-logo-black.png
+https://res.cloudinary.com/marketcube/image/upload/v1630081842/marketcube/logo/mc-white-logo.png
+
+
+
+
+Talk js : 
+
+Email: shazad.awan@marketcube.io
+PWD: Thursday-56
+appID - twLyn6PC
+
+
+BRANDPAGE IFRAME GUIDELINES
+
+
+https://github.com/allthatsdigital/vendor-pages-code/blob/master/shopify-vendor-pages.md
+
+
+
+bash zarurat.sh
+
+
+kill -9 $(lsof -t -i:1024)
+
+
+
+
+
+
+

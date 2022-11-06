@@ -1,0 +1,63 @@
+
+const apiURL =
+  process.env.REACT_APP_API_URL || "http://test-proxy.marketcube.io";
+const apikey =
+  process.env.REACT_APP_API_KEY || "e7b4e90efa6942798fde1c43c589d75a";
+
+const proxyURL =
+  process.env.REACT_APP_PROXY_URL ||
+  "https://us-central1-marketcube-test.cloudfunctions.net/test-proxy-server";
+
+const brandURL =
+  process.env.REACT_APP_BRAND_URL ||
+  "https://test-magic-sauce-brand.onrender.com";
+
+const clientURL = process.env.REACT_APP_CLIENT_URL || "http://localhost:3000";
+
+const authHeader = {
+  Host: "auth",
+  apikey,
+};
+
+const publicHeader = {
+  Host: "public",
+  apikey,
+};
+
+const emailHeader = {
+  Host: "email",
+  apikey,
+};
+
+const authMiddlewareHeader = {
+  Host: "auth-middleware",
+  apikey,
+};
+
+const config = {
+  // urls
+  apiURL,
+  clientURL,
+  proxyURL,
+  brandURL,
+  // headers
+  authHeader,
+  authMiddlewareHeader,
+  emailHeader,
+  publicHeader,
+};
+
+export default config;
+
+
+
+tes urls ----------
+7
+BRAND URL:
+
+./
+
+DEV: https://dev-magic-sauce-brand.onrender.com/api/brand/live
+TEST: https://test-magic-sauce-brand.onrender.com/api/brand/live
+PROD: https://brand.marketcube.io/api/brand/live 
+

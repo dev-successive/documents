@@ -1,0 +1,114 @@
+const env = process.env.REACT_APP_ENV || "dev";
+const shopifyAPIKey = {
+  // NOTE: update local key, as per your app
+  local: "",
+  dev: "a9660f748fe702caaddd3356d765df1e",
+  prod: "5baaa204176fd5136e83a61d93eeeb48",
+  test: "f2316c13b0209ef71ea53813189b7346",
+};
+const vendorShopifyAPIKey = {
+  // NOTE: update local key, as per your app
+  local: "",
+  dev: "26fc860d3788fe34737497c09fe4525f",
+  prod: "e8b4d1ed32048994edf7afade78cc612",
+  test: "0c2e7d719c5582897d83a57d6110f372",
+};
+const newZeaLandPostAPIUrl = {
+  dev: "https://api.uat.nzpost.co.nz/",
+  local: "https://api.uat.nzpost.co.nz/",
+  prod: "https://api.nzpost.co.nz/",
+  test: "https://api.uat.nzpost.co.nz/",
+};
+const supportEmail = {
+  dev: "support@yopmail.com",
+  local: "support@yopmail.com",
+  prod: "support@marketcube.io",
+  test: "mc-support@mailinator.com",
+};
+const chargeBeeSite = {
+  dev: "marketcube-test",
+  local: "",
+  prod: "marketcube",
+  test: "marketcube-release-test",
+};
+const config = {
+  rootURL: process.env.REACT_APP_ROOT_URL || "http://localhost:3000", // rootURL[env]
+  apiURL: process.env.REACT_APP_GQL_URL || "https://test-gql.marketcube.io/graphql", // apiURL[env],
+  webSocketUrl: process.env.REACT_APP_SOCKET_URL || "wss://test-gql.marketcube.io/graphql",
+  shopifyAPIKey: shopifyAPIKey[env],
+  vendorShopifyAPIKey: vendorShopifyAPIKey[env],
+  tinyAPIKey: "p93n47i1ddh84c4i7262tzpqyfbwadt2xotion4eprwbh0b4",
+  muteChatIntegration: true,
+  brandPageURL: process.env.REACT_APP_BRAND_PAGE_URL || "http://localhost:4000",
+  newZeaLandPostAPIUrl: newZeaLandPostAPIUrl[env],
+  supportEmail: supportEmail[env],
+  chargeBeeSite: chargeBeeSite[env],
+};
+// Debugging of server not working
+// eslint-disable-next-line no-console
+// console.log(config, process.env.REACT_APP_ENV, process.env.REACT_APP_ROOT_URL, process.env.REACT_APP_GQL_URL);
+export default config;
+
+
+
+
+const env = process.env.REACT_APP_ENV || "dev";
+const shopifyAPIKey = {
+  // NOTE: update local key, as per your app
+  local: "",
+  dev: "a9660f748fe702caaddd3356d765df1e",
+  prod: "5baaa204176fd5136e83a61d93eeeb48",
+  test: "f2316c13b0209ef71ea53813189b7346",
+};
+const vendorShopifyAPIKey = {
+  // NOTE: update local key, as per your app
+  local: "",
+  dev: "26fc860d3788fe34737497c09fe4525f",
+  prod: "e8b4d1ed32048994edf7afade78cc612",
+  test: "0c2e7d719c5582897d83a57d6110f372",
+};
+const newZeaLandPostAPIUrl = {
+  dev: "https://api.uat.nzpost.co.nz/",
+  local: "https://api.uat.nzpost.co.nz/",
+  prod: "https://api.nzpost.co.nz/",
+  test: "https://api.uat.nzpost.co.nz/",
+};
+const supportEmail = {
+  dev: "support@yopmail.com",
+  local: "support@yopmail.com",
+  prod: "support@marketcube.io",
+  test: "mc-support@mailinator.com",
+};
+const chargeBeeSite = {
+  dev: "marketcube-test",
+  local: "",
+  prod: "marketcube",
+  test: "marketcube-release-test",
+};
+const config = {
+  rootURL: process.env.REACT_APP_ROOT_URL || "http://localhost:3000", // rootURL[env]
+  apiURL: process.env.REACT_APP_GQL_URL || "https://test-gql.marketcube.io/graphql", // apiURL[env],
+  webSocketUrl: process.env.REACT_APP_SOCKET_URL || "wss://test-gql.marketcube.io/graphql",
+  shopifyAPIKey: shopifyAPIKey[env],
+  vendorShopifyAPIKey: vendorShopifyAPIKey[env],
+  tinyAPIKey: "p93n47i1ddh84c4i7262tzpqyfbwadt2xotion4eprwbh0b4",
+  muteChatIntegration: true,
+  brandPageURL: process.env.REACT_APP_BRAND_PAGE_URL || "http://localhost:4000",
+  newZeaLandPostAPIUrl: newZeaLandPostAPIUrl[env],
+  supportEmail: supportEmail[env],
+  chargeBeeSite: chargeBeeSite[env],
+};
+// Debugging of server not working
+// eslint-disable-next-line no-console
+// console.log(config, process.env.REACT_APP_ENV, process.env.REACT_APP_ROOT_URL, process.env.REACT_APP_GQL_URL);
+export default config;
+
+
+npx -p npm@6 npm install
+
+git rm -r --cached dist
+
+
+
+testmcuser@yandex.com
+

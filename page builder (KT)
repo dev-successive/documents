@@ -1,0 +1,145 @@
+Amanjot's KT point
+
+
+1- Created a seller account on below url : 
+
+ https://partners.shopify.com/1705879/stores
+
+ store name - dev14-test.myshopify.com
+
+
+
+2 - Url for install marketcube app on shopify store
+
+http://test-ui.marketcube.io/shopify/install?shop=storename
+ 
+Example - http://test-ui.marketcube.io/shopify/install?shop=dev14-test.myshopify.com
+
+Store name  - dev14-test.myshopify.com
+
+account type - seller (dev14-test.myshopify.com)
+
+
+Seller account : - 
+
+dev-operator@yopmail.com
+password: test@123
+
+
+SELLLER ACCOUNT on dev env- 
+
+amanjot.singh@successive.tech
+qwerty@1234
+
+Vendordev env : 
+
+amanjotsuccessive123@yopmail.com 
+qwerty@1234
+
+
+
+
+SELLLER ACCOUNT on Test env- 
+
+krishn.modanval@successive.tech
+test@123
+
+VENDOR ACCOUNTS - 
+
+qwerty@1234
+aman123@yopmail.com
+
+
+Email: devendra123@yopmail.com
+Password: successive!1234
+
+PAGE BUILDER - 
+
+
+1- seller has full access to create template using page builder using drag and drop functionality
+2- vendor only can edit template which is created by seller, vendor can not modify template using drag and drop functionality
+
+3- If vendor modifying template which created by seller it will reflact only his template. it will not reflact any other vendor or seller template
+
+
+END-POINTS: 
+
+http://test-proxy.marketcube.io/user/brand/template
+
+Builder settings : 
+
+
+FILES PATH : 
+
+Page builder files path for seller and vendor :
+
+/home/devendra.kumar/devendra/marketcube/new-vendor-pages/src/pages/private/builder/operator.js
+/home/devendra.kumar/devendra/marketcube/new-vendor-pages/src/pages/private/builder/provider.js
+
+nosqlbooster
+
+identify seller using vendor id
+
+
+GetopratorTemplate : 
+
+
+name(template name):
+type(brand): 
+
+
+DB COLLECTION NAME: 
+
+1- brnadTemplate  (seller collection)
+2- vendorTemplate (vendor collection)
+
+
+DEV URLS - 
+
+seller view:
+
+https://mc-dev-new-vendor-pages.onrender.com/builder/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImFtYW5qb3Quc2luZ2hAc3VjY2Vzc2l2ZS50ZWNoIiwiX2lkIjoiNWYzZjdkNmI5YmQ2NmQwMDEzN2YzODVlIiwiaXNSZWFkT25seSI6ZmFsc2UsInJlcXVlc3RlZEJ5IjpudWxsLCJpYXQiOjE1OTgzNDgwMzJ9.vNlIrC2-Mdsu8J18kG2k3vrnx7zAqIcAkwuUJRO9K_Y
+
+vendor view:
+
+https://mc-dev-new-vendor-pages.onrender.com/builder/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImFtYW5qb3RzdWNjZXNzaXZlMTIzQHlvcG1haWwuY29tIiwiX2lkIjoiNWY0NGQ2OWFiYjNjMzkwMDEyNWJkYzk4IiwiaXNSZWFkT25seSI6ZmFsc2UsInJlcXVlc3RlZEJ5IjpudWxsLCJpYXQiOjE1OTgzNjg3NTR9.D-mkCze2a940BPwGMX3dLjNVWBhGgEA06eVE_-4nTBU
+
+LIVE URL - 
+
+https://58facettes.fr/products/866621-pendentif-baroque
+
+RESET LINK - 
+
+https://dev-ui.marketcube.io/reset-password/:token
+
+
+
+
+dev env credentials
+
+seller
+
+shaik.kalam1991@gmail.com
+
+12345678n@N
+
+vendor ------
+
+kalam+1919i292@yopmail.com
+password: marketcube@12
+
+test - Operator :
+
+testmcuser@yandex.com
+user@123
+
+vendor- 
+jack@yopmail.com
+test@1234
+
+
+https://dev-store010.myshopify.com/admin/themes?channel=true
+dev-store010@yopmail.com
+test@123
+
+

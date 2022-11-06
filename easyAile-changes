@@ -1,0 +1,7 @@
+removed page title from become a seller page  (6 Oct 2021)   https://app.clickup.com/t/dzq5fk
+
+page-header.liquid    
+	
+	<h2 class="page-title">
+      {% render 'multilang' with page.title %}
+    </h2>
